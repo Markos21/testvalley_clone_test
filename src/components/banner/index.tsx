@@ -97,7 +97,6 @@ export default function Banner() {
 					</div>
 				</div>
 
-				// Inside the SwiperSlide mapping block:
 				{banners.map((o, i) => (
     <SwiperSlide key={o.mainBannerId.toString()} className='mr-0'>
         <div className='relative max-w-[960px] h-[320px] mx-auto'>
