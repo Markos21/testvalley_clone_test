@@ -72,6 +72,7 @@ export default function Banner() {
     slidesPerView={slidesPerView} 
     centeredSlides
     watchOverflow
+	initialSlide={currentIdx} 
     breakpoints={{
         320: {
             slidesPerView: 1,
